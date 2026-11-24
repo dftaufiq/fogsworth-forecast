@@ -12,11 +12,11 @@ no environment, no randomness. The same bytes every run.
 
 import os
 
-LINE = (
-    "In Fogsworth, fog till eight, then clear skies, 14\u00b0 \u2014 "
-    "the 7:40 train waits two extra minutes, "
-    "because the conductor overslept too."
-)
+SETUP = "In Fogsworth, fog till eight, then clear skies, 14\u00b0 \u2014 "
+TWIST = "the 7:40 train waits two extra minutes, "
+REVEAL = "because the conductor overslept too."
+
+LINE = SETUP + TWIST + REVEAL
 
 OUTPUT_PATH = "/output/entry.txt"
 
